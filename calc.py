@@ -1,10 +1,10 @@
+#! /usr/bin/env python3
+
 import sys
 
 def getGPA(grade):
-  if (grade > 89):
+  if (grade > 84):
     return 4
-  elif (grade > 84):
-    return 3.9
   elif (grade > 79):
     return 3.7
   elif (grade > 76):
